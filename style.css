@@ -1,102 +1,133 @@
-body{
-    background-color: black;
-    max-width: 100%;
-}
+
+    body{
+        background-color: black;
+        max-width: 100%;
+    }
 
 
-.title{
-    display: -webkit-inline-flex;
-    margin-top: 40px;
-}
+    .title{
+        display: -webkit-inline-flex;
+        margin-top: 40px;
+    }
 
-h1{
-    color: rgb(255, 255, 255);
+    h1{
+        color: rgb(255, 255, 255);
     
-}
+    }
 
-#sohungry-logo{
-    padding-right: 450px;
-    padding-left: 10px;
-    font-family: 'Knewave', cursive;
-}
+    #sohungry-logo{
+        padding-right: 450px;
+        padding-left: 10px;
+        font-family: 'Knewave', cursive;
+    }
 
-#order-now-btn {
-    background-color: #243B3B;
-    margin: auto;
-    border: 3px solid #243B3B;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 30px;
-    text-align: right;
-  }
+    #order-now-btn {
+        background-color: #243B3B;
+        margin: auto;
+        border: 3px solid #243B3B;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 30px;
+        text-align: right;
+    }
 
-.extra-stuff #the-best{
+    .extra-stuff #the-best{
     font-family: 'Knewave', cursive;
     font-size: 50px;
     color: orangered ;
     padding-left: 10px;
-}
+    }
 
-#menu-sohungry-logo{
+    #menu-sohungry-logo{
     text-align: right;
     margin-right: 20px;
     margin-bottom: 50px;
     font-family: 'Knewave', cursive;
-}
+    }
 
-h2{
+    h2{
     color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
-}
+    }
 
-.chicken-shawarma{
+    .chicken-shawarma{
     padding-left: 30px;
     padding-right: 40px;;
     
-}
+    }
 
-.vegetarian-shawarma{
+    .beef-shawarma{
+        padding-left: 30px;
+        padding-right: 40px;;
+        transform: translateX(80%);
+    }
+
+    .vegetarian-shawarma{
     padding-left: 30px;
     padding-right: 40px;;
     
-}
+    }
 
-#chicken-shawarma-title{
+    #chicken-shawarma-title{
     margin-bottom: 10px;
-}
+    }
 
-#vegetarian-shawarma-title{
+    #beef-shawarma-title{
+        margin-bottom: 10px;
+    }
+
+    #wrap{
+        transform: translateX(-130%);
+    }
+
+    .item-three #beef{
+        transform: translateX(-150%);
+    }
+
+    #vegetarian-shawarma-title{
     margin-bottom: 10px;
-}
+    }
 
-#chicken-shawarma-contents{
+    #chicken-shawarma-contents{
     color: rgb(247, 130, 84);
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
-}
-#vegetarian-shawarma-contents{
+    }
+
+    #beef-shawarma-contents{
+        color: rgb(247, 130, 84);
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 10px;
+        
+    }
+
+    #vegetarian-shawarma-contents{
     color: rgb(247, 130, 84);
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
-}
+    }
 
-#price{
+    #price{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Spartan', sans-serif;
     color: rgb(248, 248, 248);
-}
+    }
 
-.item-one{
+    .item-one{
     display: inline-flex;
-}
-.item-two{
+    }
+    .item-two{
     display: inline-flex;
-}
-.item-three{
+    }
+    .item-three{
     display: inline-flex;
-}
+    }
 
-#footnote{
+    #footnote{
     font-family: 'Knewave', cursive;
     padding-left: 30px;
     color: rgb(252, 248, 246);
-}
+    }
+
+    a:link {
+        text-decoration: none; 
+    }
